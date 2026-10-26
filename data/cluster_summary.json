@@ -1,0 +1,33 @@
+{
+  "clusters": [
+    {
+      "cluster": 0,
+      "records": 378,
+      "vehicles": 138.9,
+      "speed": 34.0,
+      "rainfall": 9.1
+    },
+    {
+      "cluster": 1,
+      "records": 1251,
+      "vehicles": 87.7,
+      "speed": 48.2,
+      "rainfall": 0.4
+    },
+    {
+      "cluster": 2,
+      "records": 1374,
+      "vehicles": 165.0,
+      "speed": 30.7,
+      "rainfall": 0.3
+    },
+    {
+      "cluster": 3,
+      "records": 1197,
+      "vehicles": 90.3,
+      "speed": 48.5,
+      "rainfall": 0.3
+    }
+  ],
+  "silhouette_score": 0.339
+}

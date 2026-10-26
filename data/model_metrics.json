@@ -1,0 +1,63 @@
+{
+  "accuracy": 0.9751,
+  "f1_macro": 0.8732,
+  "rows": 4200,
+  "train_rows": 3276,
+  "test_rows": 924,
+  "classes": [
+    "Low",
+    "Moderate",
+    "High"
+  ],
+  "confusion_matrix": [
+    [
+      739,
+      4,
+      0
+    ],
+    [
+      13,
+      155,
+      0
+    ],
+    [
+      0,
+      6,
+      7
+    ]
+  ],
+  "report": {
+    "High": {
+      "precision": 1.0,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.7,
+      "support": 13.0
+    },
+    "Low": {
+      "precision": 0.9827127659574468,
+      "recall": 0.9946164199192463,
+      "f1-score": 0.988628762541806,
+      "support": 743.0
+    },
+    "Moderate": {
+      "precision": 0.9393939393939394,
+      "recall": 0.9226190476190477,
+      "f1-score": 0.9309309309309309,
+      "support": 168.0
+    },
+    "accuracy": 0.9751082251082251,
+    "macro avg": {
+      "precision": 0.9740355684504621,
+      "recall": 0.8185656686666108,
+      "f1-score": 0.8731865644909123,
+      "support": 924.0
+    },
+    "weighted avg": {
+      "precision": 0.9750798343339446,
+      "recall": 0.9751082251082251,
+      "f1-score": 0.9740774534252795,
+      "support": 924.0
+    }
+  },
+  "data_source": "SYNTHETIC DEMONSTRATION DATA \u2014 NOT REAL-TIME TRAFFIC"
+}
